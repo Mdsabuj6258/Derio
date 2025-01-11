@@ -511,7 +511,7 @@ select {
 
 select {
     word-wrap: normal;
-    padding: 13px 65px;
+    padding: 13px 65px 13px 20px;
     border-color: #E4E7E9;
     color: #a3abb1;
     font-weight: 400;
