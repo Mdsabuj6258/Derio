@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>Derio HTML-Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/select2.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/range_slider.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+
+
+    <link rel=" stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+
+<body>
+
+    <!-- ====================
+        MENU START
+    ===================== -->
+    <nav class="navbar navbar-expand-lg  main_menu WOW fadeInUp">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="main logo">
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logistic<i class="fas fa-chevron-down"></i></a>
+                    <ul class="droap_menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">service details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">pages<i class="fas fa-chevron-down"></i></a>
+                    <ul class="droap_menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">service details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">blog<i class="fas fa-chevron-down"></i></a>
+                    <ul class="droap_menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">service details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service<i class="fas fa-chevron-down"></i></a>
+                    <ul class="droap_menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">service details</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="right_menu d-flex flex-wrap">
+                <div class="right_serch">
+                    <form class="search_form_area">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="what you are looking for?">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-trophy"></i></span>
+                                    <p>Food & drinks</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-utensils-alt"></i></span>
+                                    <p>Restaurents</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                                    <p>place</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="far fa-cart-arrow-down"></i></span>
+                                    <p>Shoping & Store</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="far fa-bed-alt"></i></span>
+                                    <p>Hotels</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-home"></i></span>
+                                    <p>Art & Historys</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <ul class="d-flex flex-wrap">
+                    <li>
+                        <a href="#"><i class="fal fa-plus"></i>Add Listing</a>
+                    </li>
+                    <li>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+                        <span>or</span>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- menu popup -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="far fa-lock"></i> Sign In</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body login_modal">
+                    <form>
+                        <input type="text" placeholder="Username or Email">
+                        <input type="password" placeholder="Password">
+
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Keep me signed in
+                                </label>
+                            </div>
+                            <a class="text-danger" href="#">Forgot Password ?</a>
+                        </div>
+                        <button type="submit">Sign In</button>
+                        <div class="socal_login">
+                            <p>Or connect with</p>
+                            <ul class=" d-flex flex-wrap">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i> Google</a></li>
+                            </ul>
+                        </div>
+                        <p class="text-center sign_up">Not a member? <a href="#">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====================
+        MENU End
+    ===================== -->
+
+    <!-- ====================
+      ABOUT BANNER START
+    ===================== -->
+    <div class="about_banner_area">
+        <div class="container">
+            <div class="row align-items-center justify-content-center pt_130 pb_140">
+                <div class="col-xl-5">
+                    <div class="about_banner_text">
+                        <h1>Place your Businessor Explore Anything what you want</h1>
+                        <a class="play_btn venobox vbox-item" data-autoplay="true" data-vbtype="video"
+                            href="https://youtu.be/ec_fXMrD7Ow?si=G3-FMpx-wvsaIGAE">
+                            <i class="fas fa-play" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="about_banner_img">
+                        <img src="images/about-illustration.png" alt="image" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====================
+       ABOUT BANNER END
+    ===================== -->
+    <!-- ====================
+       ABOUT CONTANT START
+    ===================== -->
+    <section class="about_content mt_100 mb_100">
+        <div class="container">
+            <div class="contant">
+                <div class="row align-items-center">
+                    <div class="col-xl-5">
+                        <div class="about_content_img">
+                            <img src="images/about-img1.png" alt="image" class="img-fluid w-100">
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="about_content_text">
+                            <h2>About Our Community and Our Expertise</h2>
+                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa officia runmollit anim
+                                laborum
+                                occaecat cupidatat proident. Cupidatat non proident sunt in culpa officia deserunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ====================
+       ABOUT CONTANT END
+    ===================== -->
+
+    <!-- ====================
+    ABOUT WHY CHOICE START
+    ===================== -->
+    <section class="about_why_choice mt_100 mb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="about_why_choice_text">
+                        <div class="section_heading text-start">
+                            <h2>Why List on <span>Direo</span></h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    1
+                                </div>
+                                <div class="text">
+                                    <h4> Easy Registration</h4>
+                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa officia deserunt
+                                        mollit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    2
+                                </div>
+                                <div class="text">
+                                    <h4> Promote your Listing</h4>
+                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa officia deserunt
+                                        mollit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    3
+                                </div>
+                                <div class="text">
+                                    <h4>Great Sales Benefits</h4>
+                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa officia deserunt
+                                        mollit.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="about_why_choice_img ml_120">
+                        <img src="images/about-img2.png" alt="image" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================
+       ABOUT WHY CHOICE END
+    ===================== -->
+
+    <!-- ====================
+    ABOUT COUNTER START
+    ===================== -->
+    <section class="counter_area pt_100 pb_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 text-center">
+                    <div class="counter_heading mb_50">
+                        <h2>Millions of People</h2>
+                        <p>turn to Directoria every day to make spending decisions</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <h2><span class="counter">59</span>k+</h2>
+                            <p>Tent Sites</p>
+                        </li>
+                        <li>
+                            <h2><span class="counter">23</span>k+</h2>
+                            <p>Verified Users</p>
+                        </li>
+                        <li>
+                            <h2><span class="counter">5</span>k+</h2>
+                            <p>New users per month</p>
+                        </li>
+                        <li>
+                            <h2><span class="counter">42</span>k+</h2>
+                            <p>Visitors per month</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================
+    ABOUT COUNTER END
+    ===================== -->
+
+
+
+    <!-- ====================
+         TESTIMONIAL START
+    ===================== -->
+    <section class="testimonial mt_100">
+        <div class="container">
+            <div class="row  wow fadeInDown">
+                <div class="col-xl-12">
+                    <div class="section_heading mb_50">
+                        <h2>Trusted By Over 4000+ Users</h2>
+                        <p>Here is what people say about Direo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row testi_slider wow fadeInUp">
+                <div class="col-xl-12">
+                    <div class="testimonial_content">
+                        <div class="testimonial_authot_img">
+                            <img src="images/tthumb1.jpg" alt="author image" class="img-fluid w-100">
+                        </div>
+                        <div class="testimonial_authot_text">
+                            <h4>Francis Burton</h4>
+                            <span>Toronto, Canada</span>
+                        </div>
+                        <p class="author_comment">Excepteur sint occaecat cupidatat non proident sunt in culpa
+                            officia deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat
+                            cupidatat non proident
+                            culpa officia deserunt mollit.</p>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="testimonial_content">
+                        <div class="testimonial_authot_img">
+                            <img src="images/tthumb1.jpg" alt="author image" class="img-fluid w-100">
+                        </div>
+                        <div class="testimonial_authot_text">
+                            <h4>Francis Burton</h4>
+                            <span>Toronto, Canada</span>
+                        </div>
+                        <p class="author_comment">Excepteur sint occaecat cupidatat non proident sunt in culpa
+                            officia deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat
+                            cupidatat non proident
+                            culpa officia deserunt mollit.</p>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="testimonial_content">
+                        <div class="testimonial_authot_img">
+                            <img src="images/tthumb1.jpg" alt="author image" class="img-fluid w-100">
+                        </div>
+                        <div class="testimonial_authot_text">
+                            <h4>Francis Burton</h4>
+                            <span>Toronto, Canada</span>
+                        </div>
+                        <p class="author_comment">Excepteur sint occaecat cupidatat non proident sunt in culpa
+                            officia deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat
+                            cupidatat non proident
+                            culpa officia deserunt mollit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================
+         TESTIMONIAL END
+    ===================== -->
+
+    <!-- ====================
+         BRAND START
+    ===================== -->
+    <section class="brand_earea mt_100 wow fadeInUp">
+        <div class="container">
+            <div class="row justify-content-center align-items-center brand_slider">
+                <div class="col">
+                    <div class="brand_img">
+                        <img src="images/cl2.png" alt="image" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand_img">
+                        <img src="images/cl1.png" alt="image" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand_img">
+                        <img src="images/cl3.png" alt="image" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand_img">
+                        <img src="images/cl4.png" alt="image" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand_img">
+                        <img src="images/cl5.png" alt="image" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand_img">
+                        <img src="images/cl3.png" alt="image" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================
+         BRAND END
+    ===================== -->
+
+    <!-- ====================
+         SUBSCRIBE START
+    ===================== -->
+    <section class="subscribe pt_100 pb_100 wow fadeInDown">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-8">
+                    <div class="section_heading mb_50 wow fadeInLeft">
+                        <h2>Subscribe to Newsletter</h2>
+                        <p>Subscribe to get update and information. Don't worry, we won't send spam!</p>
+                    </div>
+                    <form class="subscribe_box wow fadeInRight">
+                        <span><i class="far fa-envelope"></i></span>
+                        <input type="text" placeholder="Enter your email" required>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================
+         SUBSCRIBE END
+    ===================== -->
+
+    <!-- ====================
+         FOOTER START
+    ===================== -->
+    <footer class="mt_100 wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="company_info  wow fadeInLeft">
+                        <h2>Company Info</h2>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Conact Us</a></li>
+                            <li><a href="#">Our Listings</a></li>
+                            <li><a href="#">Our Pricings</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="Helpful_Links wow fadeInLeft">
+                        <h2>Helpful Links</h2>
+                        <ul>
+                            <li><a href="#">Join Direo</a></li>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">How it Work</a></li>
+                            <li><a href="#">Advantages</a></li>
+                            <li><a href="#">Direo App</a></li>
+                            <li><a href="#">Packages</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="Connect_Us wow fadeInRight">
+                        <h2>Connect with Us</h2>
+                        <ul>
+                            <li><a href="#">
+                                    <div class="icon"><i class="far fa-envelope"></i></div>
+                                    Contact Support
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="icon"><i class="fab fa-twitter"></i></div>
+                                    Twitter
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                                    Facebook
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="icon"><i class="fab fa-instagram"></i></div>
+                                    Instagram
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="icon"><i class="fab fa-google-plus-g"></i></div>
+                                    Google+
+                                </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="Direo_info wow fadeInRight">
+                        <h2>Direo on Mobile</h2>
+                        <p>Download the Direo app today so you can find your events anytime, anywhere.</p>
+                        <ul class="Direo_btn d-flex flex-wrap">
+                            <li><a href="#"><i class="fab fa-apple"></i> App Stor</a></li>
+                            <li><a href="#"><i class="fas fa-mobile-android-alt"></i>Google play</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====================
+         FOOTER END
+    ===================== -->
+
+    <!-- ====================
+         FOOTER LAST START
+    ===================== -->
+    <section class="footer_last mt_75 mb_30 wow fadeInDown">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <ul class="d-flex flex-wrap justify-content-between">
+                        <li>
+                            <div class="logo">
+                                <img src="images/logo_footer.png" alt="main logo" class="img-fluid w-100">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="copy_text">
+                                <p>©2019 Direo. Made with <i class="far fa-heart"></i> by <a href="#">Aazztech</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="languge">
+                                <a href="#">English</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================
+         FOOTER LAST END
+    ===================== -->
+
+
+    <!-- SCROLL BUTTON START -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- SCROLL BUTTON END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--jquery library js-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="js/Font-Awesome.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/scroll_button.js"></script>
+    <script src="js/range_slider.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+
+
+
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

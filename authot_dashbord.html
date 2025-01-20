@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>Derio HTML-Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/select2.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/range_slider.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+
+
+    <link rel=" stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+
+<body>
+
+    <!-- ====================
+        MENU START
+    ===================== -->
+    <nav class="navbar navbar-expand-lg  main_menu WOW fadeInUp">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="main logo">
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logistic<i class="fas fa-chevron-down"></i></a>
+                    <ul class="droap_menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">service details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">pages<i class="fas fa-chevron-down"></i></a>
+                    <ul class="droap_menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">service details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">blog<i class="fas fa-chevron-down"></i></a>
+                    <ul class="droap_menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">service details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service<i class="fas fa-chevron-down"></i></a>
+                    <ul class="droap_menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">service details</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="right_menu d-flex flex-wrap">
+                <div class="right_serch">
+                    <form class="search_form_area">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="what you are looking for?">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-trophy"></i></span>
+                                    <p>Food & drinks</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-utensils-alt"></i></span>
+                                    <p>Restaurents</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                                    <p>place</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="far fa-cart-arrow-down"></i></span>
+                                    <p>Shoping & Store</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="far fa-bed-alt"></i></span>
+                                    <p>Hotels</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-home"></i></span>
+                                    <p>Art & Historys</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <ul class="d-flex flex-wrap">
+                    <li>
+                        <a href="#"><i class="fal fa-plus"></i>Add Listing</a>
+                    </li>
+                    <li>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+                        <span>or</span>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- menu popup -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="far fa-lock"></i> Sign In</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body login_modal">
+                    <form>
+                        <input type="text" placeholder="Username or Email">
+                        <input type="password" placeholder="Password">
+
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Keep me signed in
+                                </label>
+                            </div>
+                            <a class="text-danger" href="#">Forgot Password ?</a>
+                        </div>
+                        <button type="submit">Sign In</button>
+                        <div class="socal_login">
+                            <p>Or connect with</p>
+                            <ul class=" d-flex flex-wrap">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i> Google</a></li>
+                            </ul>
+                        </div>
+                        <p class="text-center sign_up">Not a member? <a href="#">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====================
+        MENU End
+    ===================== -->
+
+    <!-- BREADCRUMB START -->
+    <section class="breadcrumb wow fadeInUp" style="background: url(./images/breadcrumb1.jpg);">
+        <div class="breadcrumb_overlay">
+            <div class="container">
+                <div class="col-xl-12">
+                    <div class="breadcrumb_text">
+                        <h1>Dashboard
+                        </h1>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li>All Listing
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BREADCRUMB END -->
+
+
+    <!-- ====================
+        PRICE PAGE START
+    ===================== -->
+    <section class="dashboard_area">
+        <div class="dashboard_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="dashboard_tabs">
+                            <ul class="nav nav-pills mb_100" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">My Listings</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">My Profile</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-contact" type="button" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false">Favorite Listing</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dashboard_tabs_btn"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 pt_100 pb_100">
+                    <div class="dashboard_tabs_contant ">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab" tabindex="0">
+                                <!-- my listing -->
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="single_list single_curt">
+                                            <a href="#" class="img">
+                                                <img src="images/p1.jpg" alt="image" class="img-fluid w-100">
+                                            </a>
+                                            <span class="img_bage">
+                                                Featured
+                                            </span>
+                                            <div class="text">
+                                                <a href="#" class="title">Flanders Heat & Air Systems</a>
+                                                <div class="price">
+                                                    <span class="retting">4.5 <i class="fas fa-star"></i></span>
+                                                    <div class="curt_btn">
+                                                        <a class="edit_btn" href="#">Edit</a>
+                                                        <a class="Delate_btn" href="#">Delate</a>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <p>Plan name:</p>
+                                                        Basic plan
+                                                    </li>
+                                                    <li>
+                                                        <p>Expiration:</p>
+                                                        February 13, 2020
+                                                    </li>
+                                                    <li>
+                                                        <p>Listing Status:</p>
+                                                        Published
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="single_list single_curt">
+                                            <a href="#" class="img">
+                                                <img src="images/p2.jpg" alt="image" class="img-fluid w-100">
+                                            </a>
+                                            <span class="img_bage">
+                                                Featured
+                                            </span>
+                                            <div class="text">
+                                                <a href="#" class="title">Flanders Heat & Air Systems</a>
+                                                <div class="price">
+                                                    <span class="retting">4.5 <i class="fas fa-star"></i></span>
+                                                    <div class="curt_btn">
+                                                        <a class="edit_btn" href="#">Edit</a>
+                                                        <a class="Delate_btn" href="#">Delate</a>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <p>Plan name:</p>
+                                                        Basic plan
+                                                    </li>
+                                                    <li>
+                                                        <p>Expiration:</p>
+                                                        February 13, 2020
+                                                    </li>
+                                                    <li>
+                                                        <p>Listing Status:</p>
+                                                        Published
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="single_list single_curt">
+                                            <a href="#" class="img">
+                                                <img src="images/p3.jpg" alt="image" class="img-fluid w-100">
+                                            </a>
+                                            <span class="img_bage">
+                                                Featured
+                                            </span>
+                                            <div class="text">
+                                                <a href="#" class="title">Flanders Heat & Air Systems</a>
+                                                <div class="price">
+                                                    <span class="retting">4.5 <i class="fas fa-star"></i></span>
+                                                    <div class="curt_btn">
+                                                        <a class="edit_btn" href="#">Edit</a>
+                                                        <a class="Delate_btn" href="#">Delate</a>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <p>Plan name:</p>
+                                                        Basic plan
+                                                    </li>
+                                                    <li>
+                                                        <p>Expiration:</p>
+                                                        February 13, 2020
+                                                    </li>
+                                                    <li>
+                                                        <p>Listing Status:</p>
+                                                        Published
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="single_list single_curt">
+                                            <a href="#" class="img">
+                                                <img src="images/p4.jpg" alt="image" class="img-fluid w-100">
+                                            </a>
+                                            <span class="img_bage">
+                                                Featured
+                                            </span>
+                                            <div class="text">
+                                                <a href="#" class="title">Flanders Heat & Air Systems</a>
+                                                <div class="price">
+                                                    <span class="retting">4.5 <i class="fas fa-star"></i></span>
+                                                    <div class="curt_btn">
+                                                        <a class="edit_btn" href="#">Edit</a>
+                                                        <a class="Delate_btn" href="#">Delate</a>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <p>Plan name:</p>
+                                                        Basic plan
+                                                    </li>
+                                                    <li>
+                                                        <p>Expiration:</p>
+                                                        February 13, 2020
+                                                    </li>
+                                                    <li>
+                                                        <p>Listing Status:</p>
+                                                        Published
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="single_list single_curt">
+                                            <a href="#" class="img">
+                                                <img src="images/p5.jpg" alt="image" class="img-fluid w-100">
+                                            </a>
+                                            <span class="img_bage">
+                                                Featured
+                                            </span>
+                                            <div class="text">
+                                                <a href="#" class="title">Flanders Heat & Air Systems</a>
+                                                <div class="price">
+                                                    <span class="retting">4.5 <i class="fas fa-star"></i></span>
+                                                    <div class="curt_btn">
+                                                        <a class="edit_btn" href="#">Edit</a>
+                                                        <a class="Delate_btn" href="#">Delate</a>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <p>Plan name:</p>
+                                                        Basic plan
+                                                    </li>
+                                                    <li>
+                                                        <p>Expiration:</p>
+                                                        February 13, 2020
+                                                    </li>
+                                                    <li>
+                                                        <p>Listing Status:</p>
+                                                        Published
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="single_list single_curt">
+                                            <a href="#" class="img">
+                                                <img src="images/p6.jpg" alt="image" class="img-fluid w-100">
+                                            </a>
+                                            <span class="img_bage">
+                                                Featured
+                                            </span>
+                                            <div class="text">
+                                                <a href="#" class="title">Flanders Heat & Air Systems</a>
+                                                <div class="price">
+                                                    <span class="retting">4.5 <i class="fas fa-star"></i></span>
+                                                    <div class="curt_btn">
+                                                        <a class="edit_btn" href="#">Edit</a>
+                                                        <a class="Delate_btn" href="#">Delate</a>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <p>Plan name:</p>
+                                                        Basic plan
+                                                    </li>
+                                                    <li>
+                                                        <p>Expiration:</p>
+                                                        February 13, 2020
+                                                    </li>
+                                                    <li>
+                                                        <p>Listing Status:</p>
+                                                        Published
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab" tabindex="0">
+                                <!-- my profile -->
+                                <div class="row">
+                                    <div class="col-xl-3">
+                                        <div class="user_img_area">
+                                            <div class="img"><img src="images/author-profile.jpg" alt=""></div>
+                                            <h6>Profile Image</h6>
+                                            <p>JPG or PNG 120x120 px</p>
+                                            <form>
+                                                <input type="file" value="Upload New Image">
+                                                <button type="submit">Delete Image</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-9">
+                                        <div class="user_form_area">
+                                            <div class="form_heading">
+                                                <h2><span><i class="far fa-user"></i></span>My Profile</h2>
+                                            </div>
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="#">Full Name</label>
+                                                            <input type="text" placeholder="Full Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="#">username</label>
+                                                            <input type="text" placeholder="Admin" disabled="disabled">
+                                                            <p>
+                                                                (Username can not be changed)</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="#">Frist Name</label>
+                                                            <input type="text" placeholder="Frist Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="#">Last Name</label>
+                                                            <input type="text" placeholder="Last Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="#">Email (required)</label>
+                                                            <input type="email" placeholder="Email@exmple.com">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="#"> Cell Number</label>
+                                                            <input type="number" placeholder="Phone Number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="Website"> Website</label>
+                                                            <input type="text" placeholder="exmple.com">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="Address"> Address</label>
+                                                            <input type="text" placeholder="Address">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="Password"> New Password</label>
+                                                            <input type="password" placeholder="New Password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="Password"> Confirm New Password</label>
+                                                            <input type="password" placeholder="Confirm New Password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="Facebook"> Facebook</label>
+                                                            <input type="url" placeholder="Facebook URL">
+                                                            <p>Leave it empty to hide</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="Twitter"> Twitter</label>
+                                                            <input type="url" placeholder="Twitter URL">
+                                                            <p>Leave it empty to hide</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="Google+"> Google+</label>
+                                                            <input type="url" placeholder="Google+ URL">
+                                                            <p>Leave it empty to hide</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="LinkedIn"> LinkedIn</label>
+                                                            <input type="url" placeholder="LinkedIn URL">
+                                                            <p>Leave it empty to hide</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="input">
+                                                            <label for="Youtube"> Youtube</label>
+                                                            <input type="url" placeholder="Youtube URL">
+                                                            <p>Leave it empty to hide</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-12">
+                                                        <div class="textearea">
+                                                            <label for="About Author">About Author</label>
+                                                            <textarea rows="7"
+                                                                placeholder="Discrive yourself"></textarea>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab" tabindex="0">
+
+                                <!-- user fevarete item -->
+                                <div class="row">
+                                    <div class="com-xl-12">
+                                        <div class="user_Fovarite_area">
+                                            <table class="table table-hover">
+                                                <div class="user_Fovarite_heading">
+                                                    <h2><span><i class="fal fa-list-ol"></i></span>My Fovarite Listings
+                                                    </h2>
+                                                </div>
+                                                <thead>
+                                                    <tr>
+                                                        <th>Listing Name</th>
+                                                        <th colspan="2">Category</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><a class="title" href="#">Double Broccoli Quinoa</a></td>
+                                                        <td>
+                                                            <span><i class="far fa-wine-glass"></i></span><a
+                                                                class="title" href="#">
+                                                                Restaurant</a>
+                                                        </td>
+                                                        <td><a class="remove_icon" href="#"><i
+                                                                    class="fal fa-times"></i></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="title" href="#">Easy Brazillian Cheese Bread</a>
+                                                        </td>
+                                                        <td><span><i class="far fa-wine-glass"></i></span><a
+                                                                class="title" href="#">
+                                                                Restaurant</a></td>
+                                                        <td><a class="remove_icon" href="#"><i
+                                                                    class="fal fa-times"></i></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="title" href="#">Hilton Hawaiian Village</a></td>
+                                                        <td><span> <i class="fas fa-bed-alt"></i></span><a class="title"
+                                                                href="#">
+                                                                Hotel</a></td>
+                                                        </td>
+                                                        <td><a class="remove_icon" href="#"><i
+                                                                    class="fal fa-times"></i></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                                <table class="table table-hover">
+                                    ...
+                                </table>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- ====================
+         PRICE PAGE END
+    ===================== -->
+
+
+
+    <!-- ====================
+         FOOTER START
+    ===================== -->
+    <footer class="mt_100 wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="company_info  wow fadeInLeft">
+                        <h2>Company Info</h2>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Conact Us</a></li>
+                            <li><a href="#">Our Listings</a></li>
+                            <li><a href="#">Our Pricings</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="Helpful_Links wow fadeInLeft">
+                        <h2>Helpful Links</h2>
+                        <ul>
+                            <li><a href="#">Join Direo</a></li>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">How it Work</a></li>
+                            <li><a href="#">Advantages</a></li>
+                            <li><a href="#">Direo App</a></li>
+                            <li><a href="#">Packages</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="Connect_Us wow fadeInRight">
+                        <h2>Connect with Us</h2>
+                        <ul>
+                            <li><a href="#">
+                                    <div class="icon"><i class="far fa-envelope"></i></div>
+                                    Contact Support
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="icon"><i class="fab fa-twitter"></i></div>
+                                    Twitter
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                                    Facebook
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="icon"><i class="fab fa-instagram"></i></div>
+                                    Instagram
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="icon"><i class="fab fa-google-plus-g"></i></div>
+                                    Google+
+                                </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="Direo_info wow fadeInRight">
+                        <h2>Direo on Mobile</h2>
+                        <p>Download the Direo app today so you can find your events anytime, anywhere.</p>
+                        <ul class="Direo_btn d-flex flex-wrap">
+                            <li><a href="#"><i class="fab fa-apple"></i> App Stor</a></li>
+                            <li><a href="#"><i class="fas fa-mobile-android-alt"></i>Google play</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====================
+         FOOTER END
+    ===================== -->
+
+    <!-- ====================
+         FOOTER LAST START
+    ===================== -->
+    <section class="footer_last mt_75 mb_30 wow fadeInDown">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <ul class="d-flex flex-wrap justify-content-between">
+                        <li>
+                            <div class="logo">
+                                <img src="images/logo_footer.png" alt="main logo" class="img-fluid w-100">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="copy_text">
+                                <p>©2019 Direo. Made with <i class="far fa-heart"></i> by <a href="#">Aazztech</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="languge">
+                                <a href="#">English</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================
+         FOOTER LAST END
+    ===================== -->
+
+
+    <!-- SCROLL BUTTON START -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- SCROLL BUTTON END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--jquery library js-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="js/Font-Awesome.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/scroll_button.js"></script>
+    <script src="js/range_slider.js"></script>
+    <script src="js/venobox.min.js"></script>
+
+
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
