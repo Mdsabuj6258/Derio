@@ -29,15 +29,17 @@
     <!-- ====================
         MENU START
     ===================== -->
-    <nav class="navbar navbar-expand-lg  main_menu WOW fadeInUp">
+    <nav class="navbar navbar-expand-lg  main_menu">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="main logo" class="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
+
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="main logo">
-            </a>
+
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -45,41 +47,38 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Logistic<i class="fas fa-chevron-down"></i></a>
                     <ul class="droap_menu">
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">terms & condition</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">blog details</a></li>
-                        <li><a href="#">service details</a></li>
+                        <li><a href="listing_grid.html">Listing Grid</a></li>
+                        <li><a href="listing_list.html">Listing List</a></li>
+                        <li><a href="listing_details.html">Listing Details</a></li>
+
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">pages<i class="fas fa-chevron-down"></i></a>
+                    <a class="nav-link" href="#">Categories<i class="fas fa-chevron-down"></i></a>
                     <ul class="droap_menu">
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">terms & condition</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">blog details</a></li>
-                        <li><a href="#">service details</a></li>
+                        <li><a href="categories.html">All Categories</a></li>
+                        <li><a href="all_localion.html">All Locations</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">blog<i class="fas fa-chevron-down"></i></a>
+                    <a class="nav-link" href="#">page<i class="fas fa-chevron-down"></i></a>
                     <ul class="droap_menu">
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">terms & condition</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">blog details</a></li>
-                        <li><a href="#">service details</a></li>
+                        <li><a href="author_profile.html">Author Profile</a></li>
+                        <li><a href="authot_dashbord.html">Author Dashboard</a></li>
+                        <li><a href="price.html">Pricing Plans</a></li>
+                        <li><a href="chechout.html">Checkout</a></li>
+                        <li><a href="invoice.html">Invoice</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="cards.html">Products Cards</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Service<i class="fas fa-chevron-down"></i></a>
+                    <a class="nav-link" href="#">Blog<i class="fas fa-chevron-down"></i></a>
                     <ul class="droap_menu">
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">terms & condition</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">blog details</a></li>
-                        <li><a href="#">service details</a></li>
+                        <li><a href="blog.html">Blog Grid Layout</a></li>
+                        <li><a href="blog_details.html">Blog Details</a></li>
                     </ul>
                 </li>
             </ul>
@@ -208,12 +207,12 @@
 
 
     <!-- ====================
-        list grid view START
+        list deteails view START
     ===================== -->
     <section class="listing_details pt_100 pb_100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-8">
+                <div class="col-xl-8 col-lg-8">
                     <div class="listing_heading mb_30">
                         <h2><span><i class="far fa-file-alt"></i></span>Listing Details</h2>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa kequi officia deserunt mollit
@@ -448,7 +447,7 @@
                                         tempus</span>
                                     <a href="#" class="reply"><i class="far fa-reply-all"></i>reply</a>
                                 </li>
-                                <li class="ml_100">
+                                <li class="ml_100 xs_ml_30">
                                     <div class="author_frofile d-flex flex-wrap align-items-center">
                                         <div class="author_img mr_15">
                                             <img src="images/review-author-thumb2.jpg" alt="">
@@ -541,8 +540,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
-                    <div class="side_bar">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="side_bar xs_mt_30">
                         <div class="seller">
                             <div class="side_bar_heading">
                                 <h2><span><i class="fal fa-user"></i></span>Seller Info</h2>
@@ -853,7 +852,7 @@
         </div>
     </section>
     <!-- ====================
-         list grid view END
+         list deteails view END
     ===================== -->
 
 
@@ -861,10 +860,10 @@
     <!-- ====================
          FOOTER START
     ===================== -->
-    <footer class="mt_100 wow fadeInUp">
+    <footer class="mt_100 xs_mt_0 wow fadeInUp">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="company_info  wow fadeInLeft">
                         <h2>Company Info</h2>
                         <ul>
@@ -877,7 +876,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="Helpful_Links wow fadeInLeft">
                         <h2>Helpful Links</h2>
                         <ul>
@@ -890,7 +889,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="Connect_Us wow fadeInRight">
                         <h2>Connect with Us</h2>
                         <ul>
@@ -918,7 +917,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="Direo_info wow fadeInRight">
                         <h2>Direo on Mobile</h2>
                         <p>Download the Direo app today so you can find your events anytime, anywhere.</p>
@@ -982,6 +981,7 @@
 
 
 
+
     <!--jquery library js-->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!--bootstrap js-->
@@ -994,6 +994,8 @@
     <script src="js/scroll_button.js"></script>
     <script src="js/range_slider.js"></script>
     <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
 
 
     <!--main/custom js-->

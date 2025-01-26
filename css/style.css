@@ -2895,6 +2895,7 @@ checkout  page start
 .form-check-input:checked {
     background-color: var(--colorPink);
     border-color: var(--colorPink);
+
 }
 
 .checkout_phyment {
@@ -2925,6 +2926,10 @@ checkout  page start
 
 .checkout_phyment_form .from_1 input {
     width: 20px;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .checkout_phyment_form .from_1 label {
@@ -3250,12 +3255,6 @@ blig_details  page start
     position: relative;
 }
 
-.blog_detels .body_bottom .socail_icon ul li::after {
-    position: absolute;
-    content: "\f101";
-    font-family: font awsome 5 free;
-
-}
 
 .blog_detels .body_bottom .socail_icon ul li a {
     background: rgba(39, 43, 65, .05);
@@ -3383,7 +3382,6 @@ blig_details  page start
 }
 
 .blog_detels .releted_post .single_blog .img {
-    height: auto;
     margin-bottom: 20px;
     margin-top: 30px;
 }
@@ -3859,7 +3857,7 @@ Author Profile  page start
     margin-bottom: 10px;
 }
 
-.contact_area .contact_info_cont li .icon i {
+.contact_area .contact_info_cont li .icon {
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -3910,7 +3908,7 @@ Author Profile  page start
 .authot_listing {}
 
 .authot_listing h1 {
-    font: 32px;
+    font-size: 32px;
 }
 
 .Author_profile .authot_listing .authot_listing_btn {
@@ -3928,6 +3926,32 @@ Author Profile  page start
 .authot_listing .authot_listing_btn:hover {
     background: var(--colorPink);
     color: var(--colorWhite);
+}
+
+.Author_profile .btn-secondary {
+    background: var(--colorWhite);
+    color: var(--colorPink);
+    border-color: var(--colorPink);
+    padding: 10px 20px;
+}
+
+.Author_profile .btn-secondary::after {
+    display: none;
+}
+
+.Author_profile .btn-secondary:hover {
+    background: var(--colorPink);
+    color: var(--colorWhite);
+}
+
+.Author_profile .btn-secondary:active {
+    color: var(--bs-btn-active-color);
+    background-color: var(--colorPink);
+    border-color: var(--colorPink);
+}
+
+.Author_profile .dropdown-menu {
+    --bs-dropdown-link-active-bg: var(--colorPink);
 }
 
 /* ================================
@@ -4204,8 +4228,10 @@ Dashboadr  page start
 
 .single_curt .text .curt_btn .edit_btn {
     padding: 6px 15px;
+    margin-bottom: 2px;
     border: 1px solid #903af9;
     color: #903af9;
+    background: var(--colorWhite);
     border-radius: 5px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -4425,6 +4451,47 @@ Dashboadr  page start
 
 
 
+.single_curt .text .curt_btn .edit_btn::after {
+    display: none;
+}
+
+.single_curt .text .curt_btn .edit_btn .dropdown-menu {
+    border: none;
+}
+
 /* ================================
 Dashboadr  page end
 ==================================*/
+
+
+.login_area {
+    background: #f5f7fc;
+}
+
+
+.checkout_form .form-check-input[type=checkbox] {
+    padding: 10px;
+    margin: 0;
+}
+
+.from_1 .checkout_form .form-check-input[type=radio] {
+    padding: 0;
+    margin: 0;
+}
+
+.login_area .login_heading {
+    border-bottom: 1px solid var(--colorBorder);
+
+}
+
+.login_area .login_heading h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.login_area .login_heading h2 span {
+    color: var(--paraColor);
+    font-size: 25px;
+    margin-right: 5px;
+}
