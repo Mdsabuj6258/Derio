@@ -192,13 +192,14 @@ $(function () {
 
 
 
-    // //=======SMALL DEVICE MENU ICON======
-    // $(".navbar-toggler").on("click", function () {
-    //     $(".navbar-toggler").toggleClass("show");
-    // });
+    //=======SMALL DEVICE MENU ICON======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 
-
+    /*==============NICE SELECT==================*/
+    $('#select_js').niceSelect();
 
 
 
