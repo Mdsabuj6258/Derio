@@ -579,6 +579,9 @@
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
+    .main_menu .right_menu li {
+        margin-bottom: 0px;
+    }
 
     .banner_search input {
         font-size: 13px;

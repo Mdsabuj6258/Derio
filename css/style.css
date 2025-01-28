@@ -901,7 +901,36 @@ form.search_form_area.show_list>i {
 }
 
 .single_list .img {
-    width: 100%;
+    overflow: hidden;
+    height: 270px;
+    position: relative;
+}
+
+.single_list .img::after {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    display: block;
+    content: "";
+    opacity: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    -ms-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+@keyframes hoverAnimi {
+    100% {
+        left: 125%;
+    }
+}
+
+.single_list:hover .img::after {
+    animation: hoverAnimi 1.2s;
+    -webkit-animation: hoverAnimi 1.2s;
+    opacity: 1;
 }
 
 .single_list .img_bage {
@@ -1384,6 +1413,7 @@ footer {
     border-top: 1px solid #9fabd1;
     border-bottom: 1px solid #9fabd1;
 }
+
 
 footer h2 {
     font-size: 18px;
