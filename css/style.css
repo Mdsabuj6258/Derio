@@ -1404,14 +1404,8 @@ form.search_form_area.show_list>i {
 /* footer start */
 
 footer {
-    background: url(../images/foorer.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-top: 100px;
-    padding-bottom: 100px;
-    border-top: 1px solid #9fabd1;
-    border-bottom: 1px solid #9fabd1;
+    padding-bottom: 70px;
 }
 
 
@@ -1500,6 +1494,8 @@ footer .Connect_Us ul li a .icon {
 /* footer last start */
 .footer_last ul {
     padding-top: 30px;
+    align-items: center;
+    border-top: 1px solid var(--colorBorder);
 }
 
 .footer_last .copy_text i {
@@ -2848,45 +2844,7 @@ All Locations page start
     background: #f5f7fc;
 }
 
-.all_location .location_area {}
 
-.all_location .location_area ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.all_location .location_area ul li {
-    width: 23%;
-    background: var(--colorWhite);
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #e9ebf4;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.all_location .location_area ul li:hover {
-    background: var(--colorPink);
-    color: var(--colorWhite);
-    box-shadow: 0px -3px 0px 0px #ffffff, 0px 10px 70px 0px rgba(4, 6, 24, 0.16);
-}
-
-.all_location .location_area ul li a {
-    color: var(--paraColor);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.all_location .location_area ul li:hover a {
-    color: var(--colorWhite);
-}
 
 /* ================================
 All Locations page end
