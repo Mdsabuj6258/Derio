@@ -1324,6 +1324,31 @@
     .contact_area .contact_info {
         margin-top: 30px;
     }
+
+    .about_banner_text .play_btn {
+        color: var(--colorBlack);
+        background: var(--colorWhite);
+        margin-top: 20px;
+        margin-right: 165px;
+        width: 60px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 60px;
+    }
+
+    .about_banner_text .play_btn::before {
+        top: 0%;
+        right: -120px;
+    }
+
+    .about_content_img {
+        height: 295px;
+        margin-bottom: 50px;
+    }
+
+
+
+
 }
 
 
@@ -1397,7 +1422,7 @@
     }
 
     .single_list .text .author_badge {
-        top: 37%;
+        top: 43%;
         right: 5%;
     }
 
@@ -1469,6 +1494,10 @@
         padding: 12px 20px;
     }
 
+    footer {
+        padding-top: 65px;
+    }
+
     .footer_last ul {
         justify-content: center !important;
     }
@@ -1501,6 +1530,16 @@
         color: var(--colorBlack);
         background: var(--colorWhite);
         margin-top: 20px;
+        margin-right: 165px;
+        width: 60px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 60px;
+    }
+
+    .about_banner_text .play_btn::before {
+        top: 0%;
+        right: -120px;
     }
 
     .about_content_img {
@@ -1598,9 +1637,13 @@
         margin-left: 40px;
     }
 
+    .listing_faq .accordion-header {
+        padding: 0px 0px !important;
+    }
+
     .faq_accordion .accordion-button {
         font-size: 14px;
-        padding: 0px 20px 20px 20px;
+        padding: 0px 0px 20px 0px;
     }
 
     .listing_add_review h2,
