@@ -904,6 +904,7 @@ form.search_form_area.show_list>i {
     overflow: hidden;
     height: 270px;
     position: relative;
+    width: 100%;
 }
 
 .single_list .img::after {
